@@ -48,14 +48,14 @@ it('should return the current OSX version', function (cb) {
 ## CommandLine install -g
 
 ```sh
-$ npm install --global node-version
+$ npm install --global product-version
 ```
 
 ```sh
-$ node-version --help
+$ product-version --help
 
 Example
-  $ node-version
+  $ product-version
   v0.10.28
 ```
 
