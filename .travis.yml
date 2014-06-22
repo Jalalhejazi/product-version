@@ -1,0 +1,5 @@
+language: javaScript
+install: brew install node
+script:
+  - npm install
+  - npm test
