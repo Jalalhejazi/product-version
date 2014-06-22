@@ -45,10 +45,10 @@ it('should return the current OSX version', function (cb) {
 ```
 
 
-## CommandLine install -g
+## CommandLine install --global
 
 ```sh
-$ npm install --global product-version
+$ npm install -g product-version
 ```
 
 ```sh
