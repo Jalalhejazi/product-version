@@ -1,7 +1,7 @@
 
 # Product-versions
 
-## CommandLine with node
+## use the commandLine with node
 
 > Get the OS X version of the current system. Example: `10.9.3`
 
@@ -19,6 +19,8 @@ $ npm install
 
 ```js
 $ npm test
+or just type mocha anywhere
+$ mocha
 ```
 
 
@@ -51,6 +53,7 @@ it('should return the current OSX version', function (cb) {
 $ npm install -g product-version
 ```
 
+### just use the command: product-version 
 ```sh
 $ product-version --help
 
