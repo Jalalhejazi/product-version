@@ -30,7 +30,7 @@ if (argv.version) {
 
 //node cli.js --node
 if (argv.node) {
-		var nodeVersion = require('./product_version/node.js');
+		var nodeVersion = require('./node.js');
 		nodeVersion(function (err, version) {
 			if (err) {
 				console.error(err.message);
@@ -45,7 +45,7 @@ if (argv.node) {
 
 //node cli.js --osx
 if (argv.osx) {
-		var osxVersion = require('./product_version/osx.js');
+		var osxVersion = require('./osx.js');
 		osxVersion(function (err, version) {
 			if (err) {
 				console.error(err.message);

@@ -21,8 +21,8 @@
     "test": "mocha"
   },
   "files": [
-    "product_versions/node.js",
-    "product_versions/osx.js",
+    "node.js",
+    "osx.js",
     "cli.js"
   ],
   "keywords": [
