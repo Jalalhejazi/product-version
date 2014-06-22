@@ -1,6 +1,6 @@
 {
   "name": "product-version",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Get the version of the current system. Example: v0.10.28",
   "license": "MIT",
   "repository": {
